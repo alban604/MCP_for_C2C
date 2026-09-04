@@ -10,13 +10,6 @@ Ce projet expose un ensemble d'outils permettant à un assistant IA d'interagir 
 - **Analyse des dernières sorties (Scraping) :** Extraction automatisée des comptes-rendus communautaires récents. Le LLM peut utiliser ces données pour synthétiser les conditions actuelles (état du glacier, présence de glace/neige, regel) et mettre en évidence les erreurs d'itinéraires classiques mentionnées par les autres cordées.
 - **Contexte météorologique global :** Récupération de la météo des jours passés (pour évaluer la purge des faces ou le regel nocturne) et des prévisions à venir sur le secteur visé.
 
-## 🛠️ Technologies utilisées
-
-- **Langage :** Python
-- **Serveur MCP :** FastMCP 
-- **Scraping & Extraction :** Playwright / Selenium (pour extraire dynamiquement les comptes-rendus de sorties)
-- **Données Météo :** Open-Meteo API
-- **Interface/Test :** Gradio (pour tester les requêtes manuellement avant intégration LLM)
 
 ## 💡 Cas d'usage (Exemple de prompt)
 
